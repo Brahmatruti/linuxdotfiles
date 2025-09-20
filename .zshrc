@@ -5,6 +5,13 @@
 [[ -f ~/.zsh/wsl2fix.zsh ]] && source ~/.zsh/wsl2fix.zsh
 [[ -f ~/.zsh/goto.zsh ]] && source ~/.zsh/goto.zsh
 
+# load shortcut environment paths
+export qpod="/media/dlq_pod_data_sync"
+export qdb="/media/dlq_db_data_sync"
+export spod="/media/nfs_dock_data_sync/apps"
+export mono="/media/nfs_dock_data_sync/DLWorkspace/Dell-dev-Laptop/dl-mono-iac-platform"
+
+
 # Load Starship
 # eval "$(starship init zsh)"
 
